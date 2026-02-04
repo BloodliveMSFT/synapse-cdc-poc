@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,phone,city,state,credit_limit,last_updated_ts
+1,Patricia,Smith,patricia.smith1@yahoo.com,(428) 342-2679,Dallas,TX,34158.27,2025-01-01 10:40:00
+2,Sarah,Williams,sarah.williams2@gmail.com,(230) 295-4582,Columbus,OH,12400.38,2025-01-01 10:57:00
+3,James,Moore,james.moore3@company.com,(629) 425-8359,San Antonio,TX,29874.02,2025-01-01 10:38:00
+4,Margaret,Smith,margaret.smith4@hotmail.com,(548) 484-3547,Philadelphia,PA,11550.37,2025-01-01 10:51:00
+5,David,Brown,david.brown5@hotmail.com,(299) 567-6635,Chicago,IL,30582.58,2025-01-01 10:48:00
+6,Mary,White,mary.white6@company.com,(327) 587-2291,Charlotte,NC,28049.99,2025-01-01 10:51:00
+7,Christopher,Martin,christopher.martin7@company.com,(396) 921-2139,Jacksonville,FL,3245.39,2025-01-01 10:53:00
+8,Matthew,Martinez,matthew.martinez8@yahoo.com,(303) 589-5554,Chicago,IL,23217.1,2025-01-01 10:14:00
+9,Barbara,Garcia,barbara.garcia9@outlook.com,(414) 886-5374,Jacksonville,FL,35389.2,2025-01-01 10:53:00
+10,Christopher,Williams,christopher.williams10@company.com,(946) 450-3677,Philadelphia,PA,23650.75,2025-01-01 10:43:00
+11,Sandra,Lee,sandra.lee11@yahoo.com,(901) 532-1916,Boston,MA,12223.36,2025-01-01 10:17:00
+12,Betty,Hernandez,betty.hernandez12@outlook.com,(267) 416-6155,Fort Worth,TX,11418.7,2025-01-01 10:02:00
+13,Richard,Lewis,richard.lewis13@yahoo.com,(471) 342-5040,Charlotte,NC,37504.46,2025-01-01 10:31:00
+14,William,White,william.white14@company.com,(608) 570-4593,Columbus,OH,49868.96,2025-01-01 10:34:00
+15,Thomas,Thomas,thomas.thomas15@gmail.com,(312) 356-3621,Chicago,IL,39811.89,2025-01-01 10:08:00
+16,Karen,Williams,karen.williams16@hotmail.com,(810) 679-9669,Fort Worth,TX,13319.29,2025-01-01 10:27:00
+17,Margaret,Smith,margaret.smith17@company.com,(968) 473-6573,Houston,TX,6466.06,2025-01-01 10:35:00
+18,Jennifer,Anderson,jennifer.anderson18@outlook.com,(712) 980-3927,New York,NY,25876.4,2025-01-01 10:27:00
+19,Margaret,Lee,margaret.lee19@company.com,(823) 403-3504,San Jose,CA,19321.78,2025-01-01 10:06:00
+20,Sarah,Harris,sarah.harris20@gmail.com,(813) 531-9005,Denver,CO,1954.36,2025-01-01 10:10:00

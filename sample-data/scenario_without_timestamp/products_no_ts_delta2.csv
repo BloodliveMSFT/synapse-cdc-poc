@@ -1,0 +1,11 @@
+product_id,product_name,category,price,stock_quantity,supplier_id,is_active
+PROD-0031,Smart Bundle 31,Books,447.36,345,SUP-007,false
+PROD-0032,Pro Gadget 32,Toys,290.94,339,SUP-020,true
+PROD-0033,Ultra Kit 33,Electronics,232.38,101,SUP-005,true
+PROD-0034,Ultra Bundle 34,Electronics,615.15,393,SUP-003,false
+PROD-0001,Basic Widget 1,Books,671.56,322,SUP-001,true
+PROD-0005,Smart Widget 5,Toys,66.52,196,SUP-017,false
+PROD-0012,Eco Gadget 12,Toys,958.22,75,SUP-009,true
+PROD-0026,Classic Set 26,Electronics,853.95,440,SUP-014,true
+PROD-0028,Classic Gadget 28,Home & Garden,1076.15,112,SUP-011,true
+PROD-0030,Eco Device 30,Sports,228.14,356,SUP-013,false

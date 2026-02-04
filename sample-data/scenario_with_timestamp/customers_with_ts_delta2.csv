@@ -1,0 +1,8 @@
+customer_id,first_name,last_name,email,phone,city,state,credit_limit,last_updated_ts
+26,Mark,Johnson,mark.johnson26@gmail.com,(726) 443-5562,Austin,TX,33779.91,2025-01-01 14:02:00
+27,Sarah,Jones,sarah.jones27@yahoo.com,(684) 616-4119,Seattle,WA,5621.96,2025-01-01 14:06:00
+28,Susan,Lopez,susan.lopez28@hotmail.com,(678) 946-1887,Columbus,OH,33994.86,2025-01-01 14:21:00
+1,Patricia,Smith,patricia.smith1@yahoo.com,(262) 612-6559,Houston,TX,34158.27,2025-01-01 14:20:00
+10,Christopher,Williams,christopher.williams10@company.com,(454) 396-4116,Houston,PA,23650.75,2025-01-01 14:25:00
+21,Barbara,Lewis,barbara.lewis21@yahoo.com,(343) 632-4006,Charlotte,CA,5197.02,2025-01-01 14:17:00
+25,David,Smith,david.smith25@yahoo.com,(455) 277-8260,Charlotte,MA,4478.66,2025-01-01 14:08:00

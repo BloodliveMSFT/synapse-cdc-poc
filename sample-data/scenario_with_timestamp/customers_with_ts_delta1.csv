@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,phone,city,state,credit_limit,last_updated_ts
+21,Barbara,Lewis,barbara.lewis21@yahoo.com,(259) 446-2290,San Jose,CA,5197.02,2025-01-01 12:29:00
+22,Anthony,Williams,anthony.williams22@yahoo.com,(331) 875-8787,Boston,MA,47395.59,2025-01-01 12:15:00
+23,William,Taylor,william.taylor23@yahoo.com,(752) 973-4295,Columbus,OH,35934.5,2025-01-01 12:05:00
+24,Nancy,Lee,nancy.lee24@hotmail.com,(729) 662-2982,Jacksonville,FL,13147.38,2025-01-01 12:12:00
+25,David,Smith,david.smith25@yahoo.com,(802) 425-1117,Boston,MA,4478.66,2025-01-01 12:02:00
+3,James,Moore,james.moore3@company.com,(629) 425-8359,San Antonio,TX,35848.82,2025-01-01 12:20:00
+7,Christopher,Martin,christopher.martin7@company.com,(396) 921-2139,Jacksonville,FL,3894.47,2025-01-01 12:01:00
+15,Thomas,Thomas,thomas.thomas15@gmail.com,(312) 356-3621,Chicago,IL,47774.27,2025-01-01 12:07:00

@@ -1,0 +1,10 @@
+product_id,product_name,category,price,stock_quantity,supplier_id,is_active
+PROD-0026,Classic Set 26,Electronics,731.25,160,SUP-014,true
+PROD-0027,Ultra Kit 27,Sports,53.93,223,SUP-001,true
+PROD-0028,Classic Gadget 28,Home & Garden,949.38,471,SUP-011,true
+PROD-0029,Basic Kit 29,Toys,512.04,341,SUP-014,true
+PROD-0030,Eco Device 30,Sports,199.91,340,SUP-013,true
+PROD-0002,Pro Pack 2,Clothing,543.65,154,SUP-013,true
+PROD-0008,Ultra Set 8,Home & Garden,247.04,426,SUP-005,true
+PROD-0015,Classic Kit 15,Toys,42.92,146,SUP-005,true
+PROD-0022,Modern Tool 22,Electronics,187.87,402,SUP-015,true

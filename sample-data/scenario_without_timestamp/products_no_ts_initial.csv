@@ -1,0 +1,26 @@
+product_id,product_name,category,price,stock_quantity,supplier_id,is_active
+PROD-0001,Basic Widget 1,Books,655.61,276,SUP-001,true
+PROD-0002,Pro Pack 2,Clothing,490.77,109,SUP-013,true
+PROD-0003,Classic Widget 3,Clothing,985.45,135,SUP-015,true
+PROD-0004,Modern Device 4,Sports,197.99,111,SUP-002,true
+PROD-0005,Smart Widget 5,Toys,59.63,244,SUP-017,true
+PROD-0006,Basic Device 6,Electronics,77.83,34,SUP-008,false
+PROD-0007,Ultra Widget 7,Electronics,623.18,214,SUP-019,true
+PROD-0008,Ultra Set 8,Home & Garden,246.29,202,SUP-005,true
+PROD-0009,Smart Gadget 9,Sports,19.21,318,SUP-019,true
+PROD-0010,Ultra Kit 10,Electronics,141.12,178,SUP-003,true
+PROD-0011,Eco Device 11,Home & Garden,443.79,278,SUP-010,true
+PROD-0012,Eco Gadget 12,Toys,939.53,68,SUP-009,true
+PROD-0013,Pro Kit 13,Electronics,288.93,107,SUP-011,true
+PROD-0014,Eco Bundle 14,Toys,258.6,464,SUP-002,true
+PROD-0015,Classic Kit 15,Toys,53.64,170,SUP-005,true
+PROD-0016,Modern Pack 16,Clothing,565.29,57,SUP-003,true
+PROD-0017,Premium Set 17,Books,586.67,75,SUP-014,true
+PROD-0018,Eco Set 18,Electronics,899.98,407,SUP-002,true
+PROD-0019,Ultra Gadget 19,Clothing,360.13,286,SUP-014,true
+PROD-0020,Pro Device 20,Clothing,882.59,12,SUP-006,true
+PROD-0021,Ultra Kit 21,Sports,167.6,359,SUP-004,false
+PROD-0022,Modern Tool 22,Electronics,207.57,470,SUP-015,true
+PROD-0023,Ultra Tool 23,Home & Garden,33.42,98,SUP-013,true
+PROD-0024,Basic Kit 24,Home & Garden,357.62,260,SUP-013,true
+PROD-0025,Basic Kit 25,Electronics,186.77,492,SUP-009,true
