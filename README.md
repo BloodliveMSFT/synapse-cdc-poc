@@ -47,9 +47,9 @@ You can deploy the required Azure infrastructure using one of the two automated 
 
 This is the easiest way to deploy the lab environment. Click the button below to launch the deployment in the Azure Portal.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F<YOUR_GITHUB_USERNAME>%2F<YOUR_REPOSITORY_NAME>%2Fmain%2Finfra%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F<YOUR_GITHUB_USERNAME>%2F<YOUR_REPOSITORY_NAME>%40main%2Finfra%2Fazuredeploy.json)
 
-*Note: You will need to update the link above to point to the `azuredeploy.json` file in your own public GitHub repository after you fork or clone this project.*
+*Note: You will need to update the link above to point to the `azuredeploy.json` file in your own public GitHub repository after you fork or clone this project. The `cdn.jsdelivr.net` URL avoids common CORS download errors seen with `raw.githubusercontent.com` in the Azure Portal.*
 
 #### Steps:
 
