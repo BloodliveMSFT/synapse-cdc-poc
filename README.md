@@ -79,8 +79,8 @@ This option is for users who prefer to deploy from their local command line usin
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
-    cd <YOUR_REPOSITORY_NAME>
+    git clone https://github.com/BloodliveMSFT/synapse-cdc-poc.git
+    cd synapse-cdc-poc
     ```
 
 2.  **Log in to Azure:**
@@ -206,4 +206,4 @@ To avoid ongoing costs, delete the resource group created during deployment (`rg
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/BloodliveMSFT/synapse-cdc-poc/issues) if you want to contribute.
