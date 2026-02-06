@@ -1,0 +1,66 @@
+name: Update Deploy to Azure URL
+
+# This workflow automatically updates the Deploy to Azure button URL
+# when someone forks this repository or manually triggers the workflow.
+
+on:
+  # Trigger on fork (runs when the forked repo is first pushed to)
+  push:
+    branches:
+      - main
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update Deploy to Azure URL in README
+        run: |
+          # Get the current repository owner and name
+          REPO_OWNER="${{ github.repository_owner }}"
+          REPO_NAME="${{ github.event.repository.name }}"
+          
+          echo "Repository Owner: $REPO_OWNER"
+          echo "Repository Name: $REPO_NAME"
+          
+          # Create the encoded URL for the ARM template
+          ENCODED_URL="https%3A%2F%2Fraw.githubusercontent.com%2F${REPO_OWNER}%2F${REPO_NAME}%2Fmain%2Finfra%2Fazuredeploy.json"
+          
+          # Create the full Deploy to Azure URL
+          DEPLOY_URL="https://portal.azure.com/#create/Microsoft.Template/uri/${ENCODED_URL}"
+          
+          echo "Deploy URL: $DEPLOY_URL"
+          
+          # Update the README.md file - replace any existing Deploy to Azure button URL
+          sed -i "s|https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F[^)]*%2Finfra%2Fazuredeploy.json|${DEPLOY_URL}|g" README.md
+          
+          # Also replace placeholder patterns
+          sed -i "s|<YOUR_GITHUB_USERNAME>|${REPO_OWNER}|g" README.md
+          sed -i "s|<YOUR_REPOSITORY_NAME>|${REPO_NAME}|g" README.md
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Auto-update Deploy to Azure URL for this repository"
+          git push
